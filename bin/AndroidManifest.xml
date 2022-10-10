@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.radson.puzzlemania"
+    android:versionCode="3"
+    android:versionName="1.21" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/loooooogggg"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+         <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" >
+            </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.LOGO" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.radson.puzzlemania.Puzzlemania" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.Instructions" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.S22" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M7" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M8" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M9" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M1" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M5" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M6" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M10" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M11" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M12" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M13" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M14" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M15" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M2" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M4" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.MS1" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L1" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L5" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L6" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L7" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L9" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L8" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L10" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L2" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L3" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L11" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L12" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L13" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L14" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L15" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.L4" >
+        </activity>
+        <activity android:name="com.radson.puzzlemania.M3" >
+        </activity>
+        
+    </application>
+
+         <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+        
+</manifest>
